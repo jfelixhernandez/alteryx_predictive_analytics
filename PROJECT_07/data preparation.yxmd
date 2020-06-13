@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>data-prep-exercise-results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Date Last Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Date First Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Growing Season Length" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Elevation" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="LastWinterFreezeDiff" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="FirstWinterFreezeDiff" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>data preparation</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

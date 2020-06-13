@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>climate-data-sample.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Date Last Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Date First Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Growing Season Length" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Elevation" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="306" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Latitude" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Latitude - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="402" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">StoreID=True,City=True,State=True,Date Last Winter Freeze=True,Date First Winter Freeze=True,Growing Season Length=True,Jan Avg Tot Prec=True,Feb Avg Tot Prec=True,Mar Avg Tot Prec=True,Apr Avg Tot Prec=True,May Avg Tot Prec=True,Jun Avg Tot Prec=True,Jul Avg Tot Prec=True,Aug Avg Tot Prec=True,Sep Avg Tot Prec=True,Oct Avg Tot Prec=True,Nov Avg Tot Prec=True,Dec Avg Tot Prec=True,Jan Avg Rain=True,Feb Avg Rain=True,Mar Avg Rain=True,Apr Avg Rain=True,May Avg Rain=True,Jun Avg Rain=True,Jul Avg Rain=True,Aug Avg Rain=True,Sep Avg Rain=True,Oct Avg Rain=True,Nov Avg Rain=True,Dec Avg Rain=True,Jan Avg Snow=True,Feb Avg Snow=True,Mar Avg Snow=True,Apr Avg Snow=True,May Avg Snow=True,Jun Avg Snow=True,Jul Avg Snow=True,Aug Avg Snow=True,Sep Avg Snow=True,Oct Avg Snow=True,Nov Avg Snow=True,Dec Avg Snow=True,Jan Avg Temp=True,Feb Avg Temp=True,Mar Avg Temp=True,Apr Avg Temp=True,May Avg Temp=True,Jun Avg Temp=True,Jul Avg Temp=True,Aug Avg Temp=True,Sep Avg Temp=True,Oct Avg Temp=True,Nov Avg Temp=True,Dec Avg Temp=True,Elevation=True,Longitude=True,Latitude=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_38204_f6b7db80f90a446a97b5cff75acaa2c8_\Engine_20428_9ca1743559214a1cad0668b38eb8b557_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_38204_f6b7db80f90a446a97b5cff75acaa2c8_\Engine_20428_b70fa7c59f354e618687ae7842d2d6c3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Date Last Winter Freeze],'2009-04-23','days')" field="LastWinterFreexzeDiff" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeDiff([Date First Winter Freeze],'2009-10-06','days')" field="FirstWinterFreezeDiff" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LastWinterFreexzeDiff = DateTimeDiff([Date Last Winter Freeze],'2009-04-23','day...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>clustering sample</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

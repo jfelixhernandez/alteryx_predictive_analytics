@@ -1,0 +1,902 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.1017.1638                               -->
+<workbook original-version='18.1' source-build='2019.2.5 (20192.19.1017.1638)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='Task3_TotalSales_for_Actual_and_New_Stores_with_Forecast' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Task3_Actual_and_New_Stores_ForecastedSales)' inline='true' name='federated.0mgrdns12xlaaz18q15dr1el0haw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Task3_Actual_and_New_Stores_ForecastedSales' name='excel-direct.1fl99s11hgwnzx1012zz41mqrsfj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/H313297/Desktop/UDACITY/PREDICTIVE ANALYTICS/FINAL_PROJECT/all-project-files/Task3_Actual_and_New_Stores_ForecastedSales.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1fl99s11hgwnzx1012zz41mqrsfj' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:F71:no:A1:F71:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='real' name='Total_Produce' ordinal='2' />
+            <column datatype='real' name='forecast_high_95' ordinal='3' />
+            <column datatype='real' name='forecast_low_95' ordinal='4' />
+            <column datatype='string' name='Category' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Produce</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total_Produce]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total_Produce</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>forecast_high_95</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[forecast_high_95]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>forecast_high_95</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>forecast_low_95</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[forecast_low_95]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>forecast_low_95</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F71:no:A1:F71:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date' datatype='date' name='[Calculation_2002975990823673856]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='DATE(STR([Year]) + &apos;/&apos;+ STR([Month]) +&apos;/&apos; +&apos;01&apos;)' />
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Total Produce' datatype='real' name='[Total_Produce]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Forecast High 95' datatype='real' name='[forecast_high_95]' role='measure' type='quantitative' />
+      <column caption='Forecast Low 95' datatype='real' name='[forecast_low_95]' role='measure' type='quantitative' />
+      <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_2002975990823673856]' derivation='Month-Trunc' name='[tmn:Calculation_2002975990823673856:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (MONTH(Date),Category)' hidden='true' name='[Action (MONTH(Date),Category)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tmn:Calculation_2002975990823673856:ok]' />
+          <groupfilter function='level-members' level='[Category]' />
+        </groupfilter>
+      </group>
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/H313297/Desktop/UDACITY/PREDICTIVE ANALYTICS/FINAL_PROJECT/all-project-files/Task3_Actual_and_New_Stores_ForecastedSales.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='05/31/2020 12:21:21 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Sheet1 (Task3_Actual_and_New_Stores_ForecastedSales)' increment-value='%null%' refresh-type='create' rows-inserted='70' timestamp-start='2020-05-31 00:21:21.367' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Produce</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total_Produce]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Produce</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>forecast_high_95</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[forecast_high_95]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>forecast_high_95</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>forecast_low_95</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[forecast_low_95]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>forecast_low_95</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.487406' measure-ordering='alphabetic' measure-percentage='0.512594' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Category:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#57c4ff'>
+              <bucket>&quot;Forecast&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Forecast New&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Total Produce Sales (Actual and New Stores)' type='sheet' worksheet='Total Sales with Forecast' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Total Produce Sales (Actual and New Stores)' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Total Sales with Forecast'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='24'>Actual and Forecast Total Produce Sales (Actual and New Stores) </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Task3_Actual_and_New_Stores_ForecastedSales)' name='federated.0mgrdns12xlaaz18q15dr1el0haw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mgrdns12xlaaz18q15dr1el0haw'>
+            <column caption='Date' datatype='date' name='[Calculation_2002975990823673856]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATE(STR([Year]) + &apos;/&apos;+ STR([Month]) +&apos;/&apos; +&apos;01&apos;)' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Total Produce' datatype='real' name='[Total_Produce]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_2002975990823673856]' derivation='None' name='[none:Calculation_2002975990823673856:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Produce]' derivation='Sum' name='[sum:Total_Produce:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2002975990823673856]' derivation='Month-Trunc' name='[tmn:Calculation_2002975990823673856:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Calculation_2002975990823673856:qk]' included-values='in-range'>
+            <min>#2012-03-01#</min>
+            <max>#2016-12-01#</max>
+          </filter>
+          <filter class='categorical' column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]'>
+            <groupfilter from='&quot;Actual&quot;' function='range' level='[none:Category:nk]' to='&quot;Forecast New&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Actual&quot;</bucket>
+              <bucket>&quot;Forecast New&quot;</bucket>
+              <bucket>&quot;Forecast&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Calculation_2002975990823673856:qk]</column>
+            <column>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[tmn:Calculation_2002975990823673856:qk]' value='117' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[sum:Total_Produce:qk]' value='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[tmn:Calculation_2002975990823673856:qk]' value='*MMM-YY' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0mgrdns12xlaaz18q15dr1el0haw].[sum:Total_Produce:qk]</rows>
+        <cols>[federated.0mgrdns12xlaaz18q15dr1el0haw].[tmn:Calculation_2002975990823673856:qk]</cols>
+      </table>
+      <simple-id uuid='{AD438DAB-FB5C-46F8-A0D4-27F2AB111B45}' />
+    </worksheet>
+    <worksheet name='Total Sales with Forecast (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='24'>Actual and Forecast Total Produce Sales (Actual and New Stores) </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Task3_Actual_and_New_Stores_ForecastedSales)' name='federated.0mgrdns12xlaaz18q15dr1el0haw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mgrdns12xlaaz18q15dr1el0haw'>
+            <column caption='Date' datatype='date' name='[Calculation_2002975990823673856]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATE(STR([Year]) + &apos;/&apos;+ STR([Month]) +&apos;/&apos; +&apos;01&apos;)' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Total Produce' datatype='real' name='[Total_Produce]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Produce]' derivation='Sum' name='[sum:Total_Produce:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2002975990823673856]' derivation='Month-Trunc' name='[tmn:Calculation_2002975990823673856:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[Action (MONTH(Date),Category)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[tmn:Calculation_2002975990823673856:ok]' />
+              <groupfilter function='level-members' level='[Category]' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Actual&quot;</bucket>
+              <bucket>&quot;Forecast&quot;</bucket>
+              <bucket>&quot;Forecast New&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0mgrdns12xlaaz18q15dr1el0haw].[Action (MONTH(Date),Category)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[sum:Total_Produce:qk]' value='c&quot;$&quot;#,##0,,.00M;(&quot;$&quot;#,##0,,.00M)' />
+            <format attr='width' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' value='84' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='text-format' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[tmn:Calculation_2002975990823673856:ok]' value='*MMM-YY' />
+            <format attr='width' field='[federated.0mgrdns12xlaaz18q15dr1el0haw].[tmn:Calculation_2002975990823673856:ok]' value='112' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[sum:Total_Produce:qk]' />
+              <text column='[federated.0mgrdns12xlaaz18q15dr1el0haw].[sum:Total_Produce:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0mgrdns12xlaaz18q15dr1el0haw].[tmn:Calculation_2002975990823673856:ok]</rows>
+        <cols>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{3FEAF3D9-EA56-4A13-8A23-04FF75316F6C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Total Produce Sales (Actual and New Stores)'>
+      <style />
+      <size maxheight='768' maxwidth='1366' minheight='768' minwidth='1366' preset-index='0' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Sheet1 (Task3_Actual_and_New_Stores_ForecastedSales)' name='federated.0mgrdns12xlaaz18q15dr1el0haw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0mgrdns12xlaaz18q15dr1el0haw'>
+        <column caption='Date' datatype='date' name='[Calculation_2002975990823673856]' role='dimension' type='quantitative'>
+          <calculation class='tableau' formula='DATE(STR([Year]) + &apos;/&apos;+ STR([Month]) +&apos;/&apos; +&apos;01&apos;)' />
+        </column>
+        <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+        <column-instance column='[Calculation_2002975990823673856]' derivation='None' name='[none:Calculation_2002975990823673856:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='86458' id='7' param='horz' type='layout-flow' w='98828' x='586' y='12500'>
+            <zone h='86458' id='5' type='layout-basic' w='87115' x='586' y='12500'>
+              <zone h='40204' id='3' name='Total Sales with Forecast' show-title='false' w='87115' x='586' y='21124'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='37630' id='9' name='Total Sales with Forecast (2)' show-title='false' w='87115' x='586' y='61328'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8624' id='8' leg-item-layout='horz' name='Total Sales with Forecast' pane-specification-id='0' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' type='color' w='43558' x='44143' y='12500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8624' id='12' type='empty' w='43557' x='586' y='12500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='86458' id='6' is-fixed='true' param='vert' type='layout-flow' w='11713' x='87701' y='12500'>
+              <zone h='6771' id='13' mode='checkdropdown' name='Total Sales with Forecast' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' show-apply='true' type='filter' values='relevant' w='11713' x='87701' y='12500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8985' id='10' name='Total Sales with Forecast' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Calculation_2002975990823673856:qk]' type='filter' values='database' w='11713' x='87701' y='19271'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='11458' id='11' type='text' w='98828' x='586' y='1042'>
+            <formatted-text>
+              <run bold='true' fontcolor='#333333' fontsize='24'>Actual and Forecast Total Produce Sales (Actual and New Stores) </run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='28' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='29' param='vert' type='layout-flow' w='98828' x='586' y='1042'>
+                <zone forceUpdate='true' h='11458' id='11' type='text' w='98828' x='586' y='1042'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#333333' fontsize='24'>Actual and Forecast Total Produce Sales (Actual and New Stores) </run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6771' id='13' mode='checkdropdown' name='Total Sales with Forecast' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' show-apply='true' type='filter' values='relevant' w='11713' x='87701' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8985' id='10' name='Total Sales with Forecast' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Calculation_2002975990823673856:qk]' type='filter' values='database' w='11713' x='87701' y='19271'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40204' id='3' is-fixed='true' name='Total Sales with Forecast' show-title='false' w='87115' x='586' y='21124'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8624' id='8' leg-item-layout='horz' name='Total Sales with Forecast' pane-specification-id='0' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' type='color' w='43558' x='44143' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37630' id='9' is-fixed='true' name='Total Sales with Forecast (2)' show-title='false' w='87115' x='586' y='61328'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{90A66644-EFC6-4046-B13B-592ECFB38D74}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Total Produce Sales (Actual and New Stores)'>
+      <viewpoints>
+        <viewpoint name='Total Sales with Forecast'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Total Sales with Forecast (2)'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{98B8D01A-EA64-482C-A2B3-CE82E3AD924B}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Sales with Forecast'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' type='filter' />
+            <card param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Calculation_2002975990823673856:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Calculation_2002975990823673856:qk]</field>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Category:nk]</field>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Month:qk]</field>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[none:Year:qk]</field>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[tyr:Calculation_2002975990823673856:qk]</field>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[yr:Calculation_2002975990823673856:ok]</field>
+            <field>[federated.0mgrdns12xlaaz18q15dr1el0haw].[yr:Calculation_2002975990823673856:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BBBFD661-F002-48D5-8418-6E55A180CB47}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Total Sales with Forecast (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0mgrdns12xlaaz18q15dr1el0haw].[sum:Total_Produce:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{75BC487B-F196-4CD2-BDE5-E18F4B7F8923}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Total Produce Sales (Actual and New Stores)' width='192'>
+      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
+      AJKc5v8DolDLpsA9RosAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

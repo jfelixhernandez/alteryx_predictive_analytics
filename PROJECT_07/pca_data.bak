@@ -1,0 +1,1148 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>data-prep-exercise-results.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Date Last Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Date First Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Growing Season Length" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Precip Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Rain Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Snow Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Jan" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Feb" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Mar" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Apr" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp May" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Jun" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Jul" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Aug" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Sep" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Oct" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Nov" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Temp Dec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Elevation" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="LastWinterFreezeDiff" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="FirstWinterFreezeDiff" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="402" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Temp_Oct</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-05-25 17:13:40</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-05-25 17:13:40</StartDate>
+              <EndDate>2020-05-25 17:13:40</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Temp_Oct])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="126" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date Last Winter Freeze" selected="False" rename="DateLastWinterFreeze" type="Date" size="10" />
+            <SelectField field="Date First Winter Freeze" selected="False" rename="DateFirstWinterFreeze" type="Date" size="10" />
+            <SelectField field="Growing Season Length" selected="True" rename="GrowingSeasonLenght" type="Int32" size="4" />
+            <SelectField field="Precip Jan" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Feb" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Mar" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Apr" selected="True" type="Float" size="4" />
+            <SelectField field="Precip May" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Jun" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Jul" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Aug" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Sep" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Oct" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Nov" selected="True" type="Float" size="4" />
+            <SelectField field="Precip Dec" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Jan" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Feb" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Mar" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Apr" selected="True" type="Float" size="4" />
+            <SelectField field="Rain May" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Jun" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Jul" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Aug" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Sep" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Oct" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Nov" selected="True" type="Float" size="4" />
+            <SelectField field="Rain Dec" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Jan" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Feb" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Mar" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Apr" selected="True" type="Float" size="4" />
+            <SelectField field="Snow May" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Jun" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Jul" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Aug" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Sep" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Oct" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Nov" selected="True" type="Float" size="4" />
+            <SelectField field="Snow Dec" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Jan" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Feb" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Mar" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Apr" selected="True" type="Float" size="4" />
+            <SelectField field="Temp May" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Jun" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Jul" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Aug" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Sep" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Oct" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Nov" selected="True" type="Float" size="4" />
+            <SelectField field="Temp Dec" selected="True" type="Float" size="4" />
+            <SelectField field="Elevation" selected="True" type="Float" size="4" />
+            <SelectField field="Longitude" selected="True" type="Double" size="8" />
+            <SelectField field="Latitude" selected="True" type="Double" size="8" />
+            <SelectField field="LastWinterFreezeDiff" selected="True" type="Int32" size="4" />
+            <SelectField field="FirstWinterFreezeDiff" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="222" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="StoreID" />
+            <Field name="City" />
+            <Field name="State" />
+            <Field name="GrowingSeasonLenght" />
+            <Field name="Precip Jan" />
+            <Field name="Precip Feb" />
+            <Field name="Precip Mar" />
+            <Field name="Precip Apr" />
+            <Field name="Precip May" />
+            <Field name="Precip Jun" />
+            <Field name="Precip Jul" />
+            <Field name="Precip Aug" />
+            <Field name="Precip Sep" />
+            <Field name="Precip Oct" />
+            <Field name="Precip Nov" />
+            <Field name="Precip Dec" />
+            <Field name="Rain Jan" />
+            <Field name="Rain Feb" />
+            <Field name="Rain Mar" />
+            <Field name="Rain Apr" />
+            <Field name="Rain May" />
+            <Field name="Rain Jun" />
+            <Field name="Rain Jul" />
+            <Field name="Rain Aug" />
+            <Field name="Rain Sep" />
+            <Field name="Rain Oct" />
+            <Field name="Rain Nov" />
+            <Field name="Rain Dec" />
+            <Field name="Snow Jan" />
+            <Field name="Snow Feb" />
+            <Field name="Snow Mar" />
+            <Field name="Snow Apr" />
+            <Field name="Snow May" />
+            <Field name="Snow Jun" />
+            <Field name="Snow Jul" />
+            <Field name="Snow Aug" />
+            <Field name="Snow Sep" />
+            <Field name="Snow Oct" />
+            <Field name="Snow Nov" />
+            <Field name="Snow Dec" />
+            <Field name="Temp Jan" />
+            <Field name="Temp Feb" />
+            <Field name="Temp Mar" />
+            <Field name="Temp Apr" />
+            <Field name="Temp May" />
+            <Field name="Temp Jun" />
+            <Field name="Temp Jul" />
+            <Field name="Temp Aug" />
+            <Field name="Temp Sep" />
+            <Field name="Temp Oct" />
+            <Field name="Temp Nov" />
+            <Field name="Temp Dec" />
+            <Field name="Elevation" />
+            <Field name="Longitude" />
+            <Field name="Latitude" />
+            <Field name="LastWinterFreezeDiff" />
+            <Field name="FirstWinterFreezeDiff" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>ReplaceChar([_CurrentField_], ' ', '_')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="GrowingSeasonLenght" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Int32" />
+            <Field name="Precip_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Elevation" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Longitude" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Latitude" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="LastWinterFreezeDiff" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Int32" />
+            <Field name="FirstWinterFreezeDiff" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Snow_Jan" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Feb" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Mar" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Apr" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_May" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Jun" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Jul" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Aug" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Sep" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Oct" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Nov" selected="True" type="Double" size="8" />
+            <SelectField field="Snow_Dec" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="534" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="fields">Temp_Jan + Temp_Feb + Temp_Mar + Temp_Apr + Temp_May + Temp_Jun + Temp_Jul + Temp_Aug + Temp_Sep + Temp_Oct + Temp_Nov + Temp_Dec</Value>
+          <Value name="scale">True</Value>
+          <Value name="max components">2</Value>
+          <Value name="append pc">True</Value>
+          <Value name="num pc">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="GrowingSeasonLenght" source="R-DATA:" type="Int32" />
+            <Field name="Precip_Jan" source="R-DATA:" type="Double" />
+            <Field name="Precip_Feb" source="R-DATA:" type="Double" />
+            <Field name="Precip_Mar" source="R-DATA:" type="Double" />
+            <Field name="Precip_Apr" source="R-DATA:" type="Double" />
+            <Field name="Precip_May" source="R-DATA:" type="Double" />
+            <Field name="Precip_Jun" source="R-DATA:" type="Double" />
+            <Field name="Precip_Jul" source="R-DATA:" type="Double" />
+            <Field name="Precip_Aug" source="R-DATA:" type="Double" />
+            <Field name="Precip_Sep" source="R-DATA:" type="Double" />
+            <Field name="Precip_Oct" source="R-DATA:" type="Double" />
+            <Field name="Precip_Nov" source="R-DATA:" type="Double" />
+            <Field name="Precip_Dec" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jan" source="R-DATA:" type="Double" />
+            <Field name="Rain_Feb" source="R-DATA:" type="Double" />
+            <Field name="Rain_Mar" source="R-DATA:" type="Double" />
+            <Field name="Rain_Apr" source="R-DATA:" type="Double" />
+            <Field name="Rain_May" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jun" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jul" source="R-DATA:" type="Double" />
+            <Field name="Rain_Aug" source="R-DATA:" type="Double" />
+            <Field name="Rain_Sep" source="R-DATA:" type="Double" />
+            <Field name="Rain_Oct" source="R-DATA:" type="Double" />
+            <Field name="Rain_Nov" source="R-DATA:" type="Double" />
+            <Field name="Rain_Dec" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jan" source="R-DATA:" type="Double" />
+            <Field name="Snow_Feb" source="R-DATA:" type="Double" />
+            <Field name="Snow_Mar" source="R-DATA:" type="Double" />
+            <Field name="Snow_Apr" source="R-DATA:" type="Double" />
+            <Field name="Snow_May" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jun" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jul" source="R-DATA:" type="Double" />
+            <Field name="Snow_Aug" source="R-DATA:" type="Double" />
+            <Field name="Snow_Sep" source="R-DATA:" type="Double" />
+            <Field name="Snow_Oct" source="R-DATA:" type="Double" />
+            <Field name="Snow_Nov" source="R-DATA:" type="Double" />
+            <Field name="Snow_Dec" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jan" source="R-DATA:" type="Double" />
+            <Field name="Temp_Feb" source="R-DATA:" type="Double" />
+            <Field name="Temp_Mar" source="R-DATA:" type="Double" />
+            <Field name="Temp_Apr" source="R-DATA:" type="Double" />
+            <Field name="Temp_May" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jun" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jul" source="R-DATA:" type="Double" />
+            <Field name="Temp_Aug" source="R-DATA:" type="Double" />
+            <Field name="Temp_Sep" source="R-DATA:" type="Double" />
+            <Field name="Temp_Oct" source="R-DATA:" type="Double" />
+            <Field name="Temp_Nov" source="R-DATA:" type="Double" />
+            <Field name="Temp_Dec" source="R-DATA:" type="Double" />
+            <Field name="Elevation" source="R-DATA:" type="Double" />
+            <Field name="Longitude" source="R-DATA:" type="Double" />
+            <Field name="Latitude" source="R-DATA:" type="Double" />
+            <Field name="LastWinterFreezeDiff" source="R-DATA:" type="Int32" />
+            <Field name="FirstWinterFreezeDiff" source="R-DATA:" type="Int32" />
+            <Field name="PC1" source="R-DATA:" type="Double" />
+            <Field name="PC2" source="R-DATA:" type="Double" />
+            <Field name="PC3" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_15856_946b29479b884c61a864e358756ed4bf_\Engine_20428_60125940d52e40eb85e59f1055b76ee0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="534" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="fields">Precip_Jan + Precip_Feb + Precip_Mar + Precip_Apr + Precip_May + Precip_Jun + Precip_Jul + Precip_Aug + Precip_Sep + Precip_Oct + Precip_Nov + Precip_Dec</Value>
+          <Value name="scale">True</Value>
+          <Value name="max components">2</Value>
+          <Value name="append pc">True</Value>
+          <Value name="num pc">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="GrowingSeasonLenght" source="R-DATA:" type="Int32" />
+            <Field name="Precip_Jan" source="R-DATA:" type="Double" />
+            <Field name="Precip_Feb" source="R-DATA:" type="Double" />
+            <Field name="Precip_Mar" source="R-DATA:" type="Double" />
+            <Field name="Precip_Apr" source="R-DATA:" type="Double" />
+            <Field name="Precip_May" source="R-DATA:" type="Double" />
+            <Field name="Precip_Jun" source="R-DATA:" type="Double" />
+            <Field name="Precip_Jul" source="R-DATA:" type="Double" />
+            <Field name="Precip_Aug" source="R-DATA:" type="Double" />
+            <Field name="Precip_Sep" source="R-DATA:" type="Double" />
+            <Field name="Precip_Oct" source="R-DATA:" type="Double" />
+            <Field name="Precip_Nov" source="R-DATA:" type="Double" />
+            <Field name="Precip_Dec" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jan" source="R-DATA:" type="Double" />
+            <Field name="Rain_Feb" source="R-DATA:" type="Double" />
+            <Field name="Rain_Mar" source="R-DATA:" type="Double" />
+            <Field name="Rain_Apr" source="R-DATA:" type="Double" />
+            <Field name="Rain_May" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jun" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jul" source="R-DATA:" type="Double" />
+            <Field name="Rain_Aug" source="R-DATA:" type="Double" />
+            <Field name="Rain_Sep" source="R-DATA:" type="Double" />
+            <Field name="Rain_Oct" source="R-DATA:" type="Double" />
+            <Field name="Rain_Nov" source="R-DATA:" type="Double" />
+            <Field name="Rain_Dec" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jan" source="R-DATA:" type="Double" />
+            <Field name="Snow_Feb" source="R-DATA:" type="Double" />
+            <Field name="Snow_Mar" source="R-DATA:" type="Double" />
+            <Field name="Snow_Apr" source="R-DATA:" type="Double" />
+            <Field name="Snow_May" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jun" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jul" source="R-DATA:" type="Double" />
+            <Field name="Snow_Aug" source="R-DATA:" type="Double" />
+            <Field name="Snow_Sep" source="R-DATA:" type="Double" />
+            <Field name="Snow_Oct" source="R-DATA:" type="Double" />
+            <Field name="Snow_Nov" source="R-DATA:" type="Double" />
+            <Field name="Snow_Dec" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jan" source="R-DATA:" type="Double" />
+            <Field name="Temp_Feb" source="R-DATA:" type="Double" />
+            <Field name="Temp_Mar" source="R-DATA:" type="Double" />
+            <Field name="Temp_Apr" source="R-DATA:" type="Double" />
+            <Field name="Temp_May" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jun" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jul" source="R-DATA:" type="Double" />
+            <Field name="Temp_Aug" source="R-DATA:" type="Double" />
+            <Field name="Temp_Sep" source="R-DATA:" type="Double" />
+            <Field name="Temp_Oct" source="R-DATA:" type="Double" />
+            <Field name="Temp_Nov" source="R-DATA:" type="Double" />
+            <Field name="Temp_Dec" source="R-DATA:" type="Double" />
+            <Field name="Elevation" source="R-DATA:" type="Double" />
+            <Field name="Longitude" source="R-DATA:" type="Double" />
+            <Field name="Latitude" source="R-DATA:" type="Double" />
+            <Field name="LastWinterFreezeDiff" source="R-DATA:" type="Int32" />
+            <Field name="FirstWinterFreezeDiff" source="R-DATA:" type="Int32" />
+            <Field name="PC1" source="R-DATA:" type="Double" />
+            <Field name="PC2" source="R-DATA:" type="Double" />
+            <Field name="PC3" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="558" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="fields">Rain_Jan + Rain_Feb + Rain_Mar + Rain_Apr + Rain_May + Rain_Jun + Rain_Jul + Rain_Aug + Rain_Sep + Rain_Oct + Rain_Nov + Rain_Dec</Value>
+          <Value name="scale">True</Value>
+          <Value name="max components">2</Value>
+          <Value name="append pc">True</Value>
+          <Value name="num pc">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="GrowingSeasonLenght" source="R-DATA:" type="Int32" />
+            <Field name="Precip_Jan" source="R-DATA:" type="Double" />
+            <Field name="Precip_Feb" source="R-DATA:" type="Double" />
+            <Field name="Precip_Mar" source="R-DATA:" type="Double" />
+            <Field name="Precip_Apr" source="R-DATA:" type="Double" />
+            <Field name="Precip_May" source="R-DATA:" type="Double" />
+            <Field name="Precip_Jun" source="R-DATA:" type="Double" />
+            <Field name="Precip_Jul" source="R-DATA:" type="Double" />
+            <Field name="Precip_Aug" source="R-DATA:" type="Double" />
+            <Field name="Precip_Sep" source="R-DATA:" type="Double" />
+            <Field name="Precip_Oct" source="R-DATA:" type="Double" />
+            <Field name="Precip_Nov" source="R-DATA:" type="Double" />
+            <Field name="Precip_Dec" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jan" source="R-DATA:" type="Double" />
+            <Field name="Rain_Feb" source="R-DATA:" type="Double" />
+            <Field name="Rain_Mar" source="R-DATA:" type="Double" />
+            <Field name="Rain_Apr" source="R-DATA:" type="Double" />
+            <Field name="Rain_May" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jun" source="R-DATA:" type="Double" />
+            <Field name="Rain_Jul" source="R-DATA:" type="Double" />
+            <Field name="Rain_Aug" source="R-DATA:" type="Double" />
+            <Field name="Rain_Sep" source="R-DATA:" type="Double" />
+            <Field name="Rain_Oct" source="R-DATA:" type="Double" />
+            <Field name="Rain_Nov" source="R-DATA:" type="Double" />
+            <Field name="Rain_Dec" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jan" source="R-DATA:" type="Double" />
+            <Field name="Snow_Feb" source="R-DATA:" type="Double" />
+            <Field name="Snow_Mar" source="R-DATA:" type="Double" />
+            <Field name="Snow_Apr" source="R-DATA:" type="Double" />
+            <Field name="Snow_May" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jun" source="R-DATA:" type="Double" />
+            <Field name="Snow_Jul" source="R-DATA:" type="Double" />
+            <Field name="Snow_Aug" source="R-DATA:" type="Double" />
+            <Field name="Snow_Sep" source="R-DATA:" type="Double" />
+            <Field name="Snow_Oct" source="R-DATA:" type="Double" />
+            <Field name="Snow_Nov" source="R-DATA:" type="Double" />
+            <Field name="Snow_Dec" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jan" source="R-DATA:" type="Double" />
+            <Field name="Temp_Feb" source="R-DATA:" type="Double" />
+            <Field name="Temp_Mar" source="R-DATA:" type="Double" />
+            <Field name="Temp_Apr" source="R-DATA:" type="Double" />
+            <Field name="Temp_May" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jun" source="R-DATA:" type="Double" />
+            <Field name="Temp_Jul" source="R-DATA:" type="Double" />
+            <Field name="Temp_Aug" source="R-DATA:" type="Double" />
+            <Field name="Temp_Sep" source="R-DATA:" type="Double" />
+            <Field name="Temp_Oct" source="R-DATA:" type="Double" />
+            <Field name="Temp_Nov" source="R-DATA:" type="Double" />
+            <Field name="Temp_Dec" source="R-DATA:" type="Double" />
+            <Field name="Elevation" source="R-DATA:" type="Double" />
+            <Field name="Longitude" source="R-DATA:" type="Double" />
+            <Field name="Latitude" source="R-DATA:" type="Double" />
+            <Field name="LastWinterFreezeDiff" source="R-DATA:" type="Int32" />
+            <Field name="FirstWinterFreezeDiff" source="R-DATA:" type="Int32" />
+            <Field name="PC1" source="R-DATA:" type="Double" />
+            <Field name="PC2" source="R-DATA:" type="Double" />
+            <Field name="PC3" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="546" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="fields" />
+          <Value name="scale">True</Value>
+          <Value name="max components">2</Value>
+          <Value name="append pc">True</Value>
+          <Value name="num pc">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="V_String" />
+            <Field name="GrowingSeasonLenght" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Int32" />
+            <Field name="Precip_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Precip_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Rain_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Snow_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Snow_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Temp_Jan" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Feb" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Mar" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Apr" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_May" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Jun" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Jul" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Aug" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Sep" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Oct" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Nov" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Temp_Dec" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Elevation" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Float" />
+            <Field name="Longitude" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="Latitude" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Double" />
+            <Field name="LastWinterFreezeDiff" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Int32" />
+            <Field name="FirstWinterFreezeDiff" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\data-prep-exercise-results.csv" type="Int32" />
+            <Field name="PC1" source="R-Data:" type="Double" />
+            <Field name="PC2" source="R-Data:" type="Double" />
+            <Field name="PC3" source="R-Data:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="522" y="6" width="100" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>temperature</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="522" y="138" width="100" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>precipitation</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="534" y="306" width="100" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>rain</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="534" y="414" width="100" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>snow</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_15856_946b29479b884c61a864e358756ed4bf_\Engine_20428_449565b1db6d492790c45e2e011e33bf_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_15856_946b29479b884c61a864e358756ed4bf_\Engine_20428_29d139c063c743bf8a5abbe1c937c345_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_15856_946b29479b884c61a864e358756ed4bf_\Engine_20428_91c565e7368940a885693fcc91f3e723_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="630" y="-18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\temp_pca.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>temp_pca.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\prec_pca.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prec_pca.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="642" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\rain_pca.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>rain_pca.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="True" />
+      <Destination ToolID="8" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Reports" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Reports" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Reports" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>pca_data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

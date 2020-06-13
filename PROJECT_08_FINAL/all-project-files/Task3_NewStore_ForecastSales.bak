@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task1_Stores_Clustered.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="255" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Type" size="255" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sales_Total_by_Store" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Year" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Dry_Grocery" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Dairy" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Frozen_Food" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Meat" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Produce" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Floral" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Deli" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_Bakery" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PCT_General_Merchandise" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Cluster" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\Task1_Stores_Clustered.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Address" selected="False" />
+            <SelectField field="City" selected="False" />
+            <SelectField field="State" selected="False" />
+            <SelectField field="Zip" selected="False" />
+            <SelectField field="Type" selected="False" />
+            <SelectField field="Sales_Total_by_Store" selected="False" />
+            <SelectField field="Year" selected="False" />
+            <SelectField field="PCT_Dry_Grocery" selected="False" />
+            <SelectField field="PCT_Dairy" selected="False" />
+            <SelectField field="PCT_Frozen_Food" selected="False" />
+            <SelectField field="PCT_Meat" selected="False" />
+            <SelectField field="PCT_Produce" selected="False" />
+            <SelectField field="PCT_Floral" selected="False" />
+            <SelectField field="PCT_Deli" selected="False" />
+            <SelectField field="PCT_Bakery" selected="False" />
+            <SelectField field="PCT_General_Merchandise" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storesalesdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Day" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Month" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Dry_Grocery" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Dairy" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Frozen_Food" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Meat" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Produce" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Floral" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Deli" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="Bakery" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+            <Field name="General_Merchandise" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\FINAL_PROJECT\all-project-files\storesalesdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="270" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Month" action="GroupBy" rename="Month" />
+            <SummarizeField field="Store" action="GroupBy" rename="Store" />
+            <SummarizeField field="Produce" action="Sum" rename="Sum_Produce" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Day" selected="False" type="Int32" size="4" />
+            <SelectField field="Month" selected="True" type="Int32" size="4" />
+            <SelectField field="Year" selected="True" type="Int32" size="4" />
+            <SelectField field="Dry_Grocery" selected="False" type="Double" size="8" />
+            <SelectField field="Dairy" selected="False" type="Double" size="8" />
+            <SelectField field="Frozen_Food" selected="False" type="Double" size="8" />
+            <SelectField field="Meat" selected="False" type="Double" size="8" />
+            <SelectField field="Produce" selected="True" type="Double" size="8" />
+            <SelectField field="Floral" selected="False" type="Double" size="8" />
+            <SelectField field="Deli" selected="False" type="Double" size="8" />
+            <SelectField field="Bakery" selected="True" type="Double" size="8" />
+            <SelectField field="General_Merchandise" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="354" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="True" rename="Right_Store" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\H313297\AppData\Local\Temp\Engine_4780_37a52a4379cb4d4ea423c7e16bd091bf_\Engine_21652_b9e0544dbd7f4bd9bdce227e932afa14_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="450" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Cluster" action="GroupBy" rename="Cluster" />
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Month" action="GroupBy" rename="Month" />
+            <SummarizeField field="Sum_Produce" action="Avg" rename="Avg_Sum_Produce" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task3_NewStore_ForecastSales</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

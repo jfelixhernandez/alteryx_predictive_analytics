@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>climate-data-sample.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StoreID" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Date Last Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Date First Winter Freeze" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Growing Season Length" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Tot Prec" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Rain" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Snow" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jan Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Feb Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Mar Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Apr Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="May Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jun Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Jul Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Aug Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Sep Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Oct Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Nov Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Dec Avg Temp" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Elevation" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT07\climate-data-sample.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>clustering sample</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

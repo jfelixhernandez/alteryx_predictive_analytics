@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\H313297\Desktop\UDACITY\PREDICTIVE ANALYTICS\PROJECT05\price elasticity\pos-transactions.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>pos-transactions.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Invoice_number" source="Formula: [RecordID]+15325738" type="Int32" />
+            <Field name="Invoice_date" source="File: (Multiple Sources)" type="DateTime" />
+            <Field name="SKU" size="8" source="Formula: if IsEmpty([SKU]) then '' else ToString(CharFromInt(65+RandInt(25)),0)+ToString(RandInt(9),0)+ToString(CharFromInt(65+RandInt(25)),0)+ToString(RandInt(9),0)+ToString(CharFromInt(65+RandInt(25)),0)+ToString(RandInt(9),0)+ToString(CharFromInt(65+RandInt(25)),0)+ToString(RandInt(9),0) endif" type="String" />
+            <Field name="SKU_category" size="23" source="File: W:\AB Starter Kit\_extra\obfuscate\anon_SKU_category.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="Gross_margin" scale="4" size="21" source="Formula: [Gross_margin]*1.1" type="FixedDecimal" />
+            <Field name="Sales" scale="4" size="21" source="Formula: [Sales]*1.1" type="FixedDecimal" />
+            <Field name="Store" size="9" source="File: W:\AB Starter Kit\_extra\obfuscate\anon_store.xlsx|`Sheet1$`" type="String" />
+            <Field name="Region" size="7" source="File: W:\AB Starter Kit\_extra\obfuscate\anon_region_city.xlsx|`Sheet1$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SKU_category" selected="True" />
+            <SelectField field="SKU" selected="False" />
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Invoice_number" selected="True" />
+            <SelectField field="Gross_margin" selected="True" size="21.2" />
+            <SelectField field="Sales" selected="True" size="21.2" />
+            <SelectField field="Invoice_date" selected="True" type="Date" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsEmpty([Region]) AND
+[Invoice_date]&gt;='2013-02-07' AND
+[Invoice_date] &lt;= '2014-05-28'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Region]) AND
+[Invoice_date]&gt;='2013-02-07' AND
+[Invoice_date] &lt;= '2014-...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FLOOR(&#xA;DateTimeDiff([Invoice_date],'2013-02-07','DAYS')/7+1&#xA;)" field="WEEK" size="8" type="Int64" />
+            <FormulaField expression="DateTimeAdd('2013-02-07',7*([WEEK]-1),'DAYS')" field="WEEK_START" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeAdd([WEEK_START],6,'DAYS')" field="WEEK_END" size="1073741823" type="V_WString" />
+            <FormulaField expression="IIF([SKU_category]='Facial',1,null())" field="FACIAL_FLAG" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>WEEK = FLOOR(
+DateTimeDiff([Invoice_date],'2013-02-07','DAYS')/7+1
+)
+WEEK_START ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>SAMPLE 4 PRICE ELASTICITY</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
